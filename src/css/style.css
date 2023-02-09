@@ -16,7 +16,7 @@ body{
     justify-content: space-between;
 
     max-width: 1320px;
-    height: 100vh;
+    min-height: 100vh;
     padding: 5rem 0;
     margin: 0 3.4rem;
 }
@@ -34,6 +34,10 @@ body{
 
 .container .card .text{
     padding: 4.3rem 0;
+}
+
+.container .card .image img{
+    width: 100%;
 }
 
 .container .card .text h1{
