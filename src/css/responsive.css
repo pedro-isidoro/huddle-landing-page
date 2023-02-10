@@ -10,9 +10,19 @@
         background-size: cover;
         height: 100%;
     }
+
+    .container .logo img{
+        width: 20%;
+        margin-bottom: 5rem;
+    }
 }
 
 @media(max-width: 800px){
+    .container .logo img{
+        width: 45%;
+        margin-bottom: 5rem;
+    }
+
     .container .card{
         display: flex;
         flex-direction: column;
