@@ -8,31 +8,38 @@ html{
 body{
     background: url(../image/bg-desktop.svg) hsl(257, 40%, 49%) no-repeat;
     background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 
 .container{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
 
-    min-height: 100vh;
+
+    width: 1200px;
+    max-width: 100%;
     padding: 5rem 0;
     margin: 0 3.4rem;
 }
 
-.container .logo img{
-    width: 21.4rem;
+.container.logo img{
+    width: 15%;
     margin-bottom: 8.5rem;
 }
 
 .container .card{
     display: flex;
+    max-width: 100%;
     gap: 5.3rem;
     margin: 0 1rem;
 }
 
 .container .card .text{
+    width: 50%;
     padding: 4.3rem 0;
 }
 
