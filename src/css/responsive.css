@@ -1,4 +1,4 @@
-@media(max-width: 1115px){
+@media(max-width: 1400px){
     .container .card .image img{
         width: 100%;
     }
@@ -12,19 +12,19 @@
     }
 }
 
-@media(max-width: 768px){
+@media(max-width: 800px){
     .container .card{
         display: flex;
         flex-direction: column;
         text-align: center;
     }
 
-    .container .card .text h1{
-        font-size: 2.6rem;
+    .container .card .text{
+        width: 100%;
     }
 
-    .container .card .text p{
-        padding: 1rem 7rem;
+    .container .card .text h1{
+        font-size: 2.6rem;
     }
 
     .container .social .redes{
